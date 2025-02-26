@@ -17,18 +17,18 @@ a {
 }
 </style>
 
-# `we've got rhythm`
+# `We've Got Rhythm`
 
 ---
 
-`We've Got Rhythm is a not-for-profit 501(c)3 organization dedicated to the advancement of music education for young people.`
+`We've Got Rhythm is a Not-For-Profit 501(c)3 youth development organization dedicated to the advancement of music education for young people.`
 
 ### 🎻 `Secret Angel Instrument Donation Program` 🎺
 
 `We've Got Rhythms' Secret Angel Program unites well-loved but unused instruments to students in need.`  
-`- Violin`  
-`- Keyboard`
-`- Guitar`
+`- Violins`  
+`- Keyboards`
+`- Guitars`
 
 `Contact Us`
 <info@wevegotrhythm.org>  
