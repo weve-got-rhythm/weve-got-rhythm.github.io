@@ -7,7 +7,7 @@ h1 {
     font-size: 25px;
 }
 body {
-    background-image: url('images/watercolor-bg.png');
+    background-image: url('images/wgr_logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1450px 1450px;
@@ -29,6 +29,7 @@ a {
 `- Violins`  
 `- Keyboards`
 `- Guitars`
+`- Guitars`
 
-`Contact Us`
+`For more information, contact us`
 <info@wevegotrhythm.org>  
