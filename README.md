@@ -26,10 +26,12 @@ a {
 ### 🎻 `Secret Angel Instrument Donation Program` 🎺
 
 `We've Got Rhythms' Secret Angel Program unites well-loved but unused instruments to students in need.`  
-`- Violins`  
+`- Violins`
 `- Keyboards`
-`- Guitars`
-`- Guitars`
+`- Guitars`  
+`- Cellos`
+`- Drums`
+`- Wind Instruments`
 
 `For more information, contact us`
 <info@wevegotrhythm.org>  
