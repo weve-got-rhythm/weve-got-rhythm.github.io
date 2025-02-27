@@ -7,7 +7,7 @@ h1 {
     font-size: 25px;
 }
 body {
-    background-image: url('watercolor-bgcarnegie_hall-bg.jpg');
+    background-image: url('carnegie_hall-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 2048px 1152px;
