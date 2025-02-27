@@ -10,7 +10,7 @@ body {
     background-image: url('watercolor-bgcarnegie_hall-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1450px 1450px;
+    background-size: 2048px 1152px;
 }
 a { 
 	font-family: Consolas,monaco,monospace; 
