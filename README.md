@@ -27,11 +27,11 @@ a {
 
 ---
 
-`Our Mission`
+### `Our Mission`
 
 `At We’ve Got Rhythm, we believe that music has the power to transform lives. Our mission is to provide equitable access to music education, ensuring that every student—regardless of background—can develop their musical talent, creativity, and confidence.`
 
-`Our Vision`
+### `Our Vision`
 
 `We envision a world where music is a universal right, not a privilege. Through scholarships, community programs, and partnerships, we work toward a future where every aspiring musician has the resources to learn, perform, and thrive.`
 
@@ -49,8 +49,8 @@ a {
 
 # `Get Involved (Ways to Support)`
 
-🎹 `Donate – Your support provides instruments, lessons, and scholarships. Give today.`
-🎤` Volunteer – Share your skills as an instructor, mentor, or event organizer. Join us.`
-🎼 `Partner With Us – Schools, businesses, and organizations can collaborate to expand access to music education. Let’s connect.`
+## 🎹 `Donate – Your support provides instruments, lessons, and scholarships. Give today.`  
+## 🎤` Volunteer – Share your skills as an instructor, mentor, or event organizer. Join us.`  
+## 🎼 `Partner With Us – Schools, businesses, and organizations can collaborate to expand access to music education. Let’s connect.`
 
 `For more information on how you can become involved, please contact us` <info@wevegotrhythm.org>  
