@@ -53,7 +53,9 @@ a {
 
 `We believe that firsthand exposure to world-class performances can inspire young minds and expand their sense of what’s possible. These eye-opening experiences can change the course of a child’s future.`  
 
-`Through our #RhythmSupport Program, we provide students and their families with free tickets and transportation to some of the most renowned concert halls, including Carnegie Hall. But the experience doesn’t end there—after the performance, students get the exclusive opportunity to go backstage and meet the musicians, offering them a firsthand look at what dedication, artistry, and perseverance can achieve.`  
+`Through our #RhythmSupport Program, we provide students and their families with free tickets and transportation to some of the most renowned concert halls, including Carnegie Hall.`  
+
+`But the experience doesn’t end there—after the performance, students get the exclusive opportunity to go backstage and meet the musicians, offering them a firsthand look at what dedication, artistry, and perseverance can achieve.`  
 
 ---
 
