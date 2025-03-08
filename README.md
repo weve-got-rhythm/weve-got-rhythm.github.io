@@ -39,9 +39,11 @@ a {
 
 ### `Programs & Initiatives`
 
-🎻 `Secret Angel Instrument Donation Program` 🎺
+🎻 `Secret Angel Instrument Program` 🎺
 
-`Our Secret Angel Program unites well-loved but unused instruments to students in need. We are currently looking for:`  
+`Our Secret Angel Program unites once well-loved but currently unused instruments to students in need. Are you a Secret Angel? Do you have an instrument that could benefit a student in need?`  
+
+`We are currently looking for:`  
 `- Violins`
 `- Keyboards`
 `- Guitars`  
@@ -49,7 +51,7 @@ a {
 `- Drums`
 `- Wind Instruments`  
 
-🎼 `#RhythmSupport | Inspiring the Next Generation Through Music`  
+🎼 `#RhythmSupport | Inspiring the Next Generation Through Music`  🎶
 
 `We believe that firsthand exposure to world-class performances can inspire young minds and expand their sense of what’s possible. These eye-opening experiences can change the course of a child’s future.`  
 
@@ -68,8 +70,6 @@ a {
 `Lifelong Impact: For many students, this is their first time attending a high-level concert—an experience that can ignite a lifelong passion for music.`  
 
 🎟️ `Want to Support This Program? Donate or get involved to help bring more children to these unforgettable experiences.`
-
-`[Learn More / Donate]`
 
 ### `Get Involved | Ways to Support`
 
