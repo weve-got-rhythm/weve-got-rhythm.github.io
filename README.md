@@ -39,7 +39,7 @@ a {
 
 ### `Programs & Initiatives`
 
-🎻 `Secret Angel Instrument Program` 🎺
+😇 `Secret Angel Instrument Program` 🪽
 
 `Our Secret Angel Program unites once well-loved but currently unused instruments to students in need. Are you a Secret Angel? Do you have an instrument that could benefit a student in need?`  
 
@@ -63,11 +63,11 @@ a {
 
 ### `Why It Matters`
 
-`Exposure to Excellence: Seeing world-class musicians perform in iconic spaces expands a child’s vision of what’s possible.`  
+🎻 `Exposure to Excellence: Seeing world-class musicians perform in iconic spaces expands a child’s vision of what’s possible.`  
 
-`Personal Connections: Meeting artists demystifies professional musicianship and makes success feel within reach.`  
+🎺 `Personal Connections: Meeting artists demystifies professional musicianship and makes success feel within reach.`  
 
-`Lifelong Impact: For many students, this is their first time attending a high-level concert—an experience that can ignite a lifelong passion for music.`  
+📯 `Lifelong Impact: For many students, this is their first time attending a high-level concert—an experience that can ignite a lifelong passion for music.`  
 
 🎟️ `Want to Support This Program? Donate or get involved to help bring more children to these unforgettable experiences.`
 
