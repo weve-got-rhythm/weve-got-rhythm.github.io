@@ -49,8 +49,8 @@ a {
 
 # `Get Involved (Ways to Support)`
 
-## 🎹 `Donate – Your support provides instruments, lessons, and scholarships. Give today.`  
-## 🎤` Volunteer – Share your skills as an instructor, mentor, or event organizer. Join us.`  
-## 🎼 `Partner With Us – Schools, businesses, and organizations can collaborate to expand access to music education. Let’s connect.`
+🎹 `Donate – Your support provides instruments, lessons, and scholarships. Give today.`  
+🎤` Volunteer – Share your skills as an instructor, mentor, or event organizer. Join us.`  
+🎼 `Partner With Us – Schools, businesses, and organizations can collaborate to expand access to music education. Let’s connect.`
 
 `For more information on how you can become involved, please contact us` <info@wevegotrhythm.org>  
