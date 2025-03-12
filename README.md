@@ -22,6 +22,7 @@ a {
 ---
 
 `We've Got Rhythm is a Not-For-Profit 501(c)3 youth development organization dedicated to the advancement of music education for young people.`
+[header](###why-it-matters)
 
 # `About Us`
 
