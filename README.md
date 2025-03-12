@@ -20,6 +20,7 @@ a {
 # `We've Got Rhythm`
 ---
 [Mission](#our-mission) `|` [Programs](#programs--initiatives) `|` [Why it Matters](#why-it-matters) `|` [Get Involved](#get-involved--ways-to-support)
+
 ---
 
 `We've Got Rhythm is a Not-For-Profit 501(c)3 youth development organization dedicated to the advancement of music education for young people.`
