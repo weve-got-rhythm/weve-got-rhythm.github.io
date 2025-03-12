@@ -65,6 +65,7 @@ a {
 
 ---
 
+![](/images/adult_child_violin.jpg.webp)
 ### `Why It Matters`
 
 🎻 `Exposure to Excellence: Seeing world-class musicians perform in iconic spaces expands a child’s vision of what’s possible.`  
