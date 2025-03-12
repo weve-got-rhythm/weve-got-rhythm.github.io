@@ -33,6 +33,7 @@ a {
 ### `Our Vision`
 
 `We envision a world where music is a universal right, not a privilege. Through scholarships, community programs, and partnerships, we work toward a future where every aspiring musician has the resources to learn, perform, and thrive.`
+
 ---
 
 ![](/images/woman_teaches_kid_guitar.jpeg)
