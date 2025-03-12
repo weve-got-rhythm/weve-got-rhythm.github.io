@@ -74,7 +74,7 @@ a {
 
 📯 `Lifelong Impact: For many students, this is their first time attending a high-level concert—an experience that can ignite a lifelong passion for music.`  
 
-🎟️ `Want to Support This Program? Donate or get involved to help bring more children to these unforgettable experiences.`
+🎟️ `Want to Support This Program? Donate or get involved to help bring more children to these unforgettable experiences!`
 
 ![](/images/man_teaches_boy_guitar.jpeg)
 ### `Get Involved | Ways to Support`
