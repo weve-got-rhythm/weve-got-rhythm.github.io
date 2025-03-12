@@ -44,11 +44,11 @@ a {
 `Our Secret Angel Program unites once well-loved but currently unused instruments to students in need. Are you a Secret Angel? Do you have an instrument that could benefit a student in need?`  
 
 `We are currently looking for:`  
-`- Violins`
-`- Keyboards`
+`- Violins`  
+`- Keyboards`  
 `- Guitars`  
-`- Cellos`
-`- Drums`
+`- Cellos`  
+`- Drums`  
 `- Wind Instruments`  
 
 🎼 `#RhythmSupport | Inspiring the Next Generation Through Music`  🎶
