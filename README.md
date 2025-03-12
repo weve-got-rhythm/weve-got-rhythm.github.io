@@ -22,7 +22,7 @@ a {
 ---
 
 `We've Got Rhythm is a Not-For-Profit 501(c)3 youth development organization dedicated to the advancement of music education for young people.`
-[header](###why-it-matters)
+[Why it matters.](#why-it-matters)
 
 # `About Us`
 
@@ -64,7 +64,7 @@ a {
 
 ---
 
-### `Why It Matters`
+### <a name="why-it-matters"></a> `Why It Matters`
 
 🎻 `Exposure to Excellence: Seeing world-class musicians perform in iconic spaces expands a child’s vision of what’s possible.`  
 
