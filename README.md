@@ -39,6 +39,8 @@ a {
 
 ---
 
+![](/images/woman_teaches_kid_guitar.jpeg)
+
 ### `Programs & Initiatives`
 
 😇 `Secret Angel Instrument Program` 🪽
