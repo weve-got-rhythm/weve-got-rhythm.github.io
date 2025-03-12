@@ -64,7 +64,7 @@ a {
 
 ---
 
-### <a name="why-it-matters"></a> `Why It Matters`
+### `Why It Matters`
 
 🎻 `Exposure to Excellence: Seeing world-class musicians perform in iconic spaces expands a child’s vision of what’s possible.`  
 
