@@ -51,6 +51,8 @@ a {
 `- Drums`  
 `- Wind Instruments`  
 
+![](/images/kid_plays_cello_rhythm_support_2019.jpg)
+
 🎼 `#RhythmSupport | Inspiring the Next Generation Through Music`  🎶
 
 `We believe that firsthand exposure to world-class performances can inspire young minds and expand their sense of what’s possible. These eye-opening experiences can change the course of a child’s future.`  
