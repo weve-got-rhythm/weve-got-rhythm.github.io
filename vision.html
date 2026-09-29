@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Vision | We've Got Rhythm</title>
+  <meta name="description" content="Our mission and the principles that guide We've Got Rhythm: equitable access to a world-class music education for every child."/>
+  <link rel="icon" type="image/svg+xml" href="images/wgr_logo.svg"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="js/tailwind-config.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700;900&family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script defer src="js/main.js"></script>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden">
+
+  <!-- Site Navigation -->
+  <nav class="bg-white border-b border-stone-200 fixed top-0 z-50 w-full" aria-label="Main Navigation">
+    <div class="flex justify-between items-center w-full px-4 sm:px-6 md:px-12 py-3 max-w-screen-2xl mx-auto">
+      
+      <!-- Brand Identity: Spelled-out name (Mobile left, Desktop side-by-side with logo) -->
+      <a href="index.html" class="flex items-center gap-2.5 md:gap-3 group hover:opacity-90 transition-opacity flex-shrink-0" aria-label="We've Got Rhythm home">
+        <img src="images/wgr_logo.svg" alt="We've Got Rhythm" class="hidden md:block h-6 lg:h-7 w-auto" width="70" height="27"/>
+        <span class="font-serif tracking-[0.16em] sm:tracking-[0.2em] uppercase text-[11px] sm:text-xs md:text-sm font-bold leading-none transition-opacity">
+          <span class="text-[#7d7d7d]">We've Got</span> <span class="text-[#b01b14]">Rhythm</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <div class="hidden md:flex items-center gap-6 lg:gap-10">
+        <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-red-700 border-b border-red-700 pb-1" href="vision.html">VISION</a>
+        <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-stone-500 hover:text-red-700 transition-colors duration-300" href="programs.html">PROGRAMS</a>
+        <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-stone-500 hover:text-red-700 transition-colors duration-300" href="impact.html">IMPACT</a>
+        <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-stone-500 hover:text-red-700 transition-colors duration-300" href="partnership.html">PARTNERSHIP</a>
+        <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-stone-500 hover:text-red-700 transition-colors duration-300" href="who-we-are.html">WHO WE ARE</a>
+      </div>
+
+      <!-- Mobile Menu Toggle: Centered Animated WGR Logo Button (3D Flip) -->
+      <button id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden relative w-12 h-10 flex items-center justify-center text-stone-700 hover:text-red-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded">
+        <!-- Front face: WGR Logo Mark -->
+        <div class="toggle-logo-icon absolute inset-0 flex items-center justify-center">
+          <img src="images/wgr_logo.svg" alt="Open menu" class="h-6 w-auto" width="60" height="23"/>
+        </div>
+        <!-- Back face: Dismiss Close '✕' Icon -->
+        <div class="toggle-close-icon absolute inset-0 flex items-center justify-center text-primary">
+          <span class="material-symbols-outlined text-2xl font-bold">close</span>
+        </div>
+      </button>
+
+      <!-- Donate Action Button -->
+      <a href="partnership.html#donate" class="bg-primary-container text-on-primary font-serif tracking-[0.16em] sm:tracking-[0.2em] uppercase text-[11px] sm:text-xs font-bold px-3.5 sm:px-4 md:px-6 py-2 sm:py-2.5 rounded-lg active:opacity-80 transition-opacity flex-shrink-0">Donate</a>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Panel -->
+  <div id="mobile-menu" class="md:hidden bg-white">
+    <div class="px-8 py-8 flex flex-col gap-2 flex-1">
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-red-700" href="vision.html">VISION</a>
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="programs.html">PROGRAMS</a>
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="impact.html">IMPACT</a>
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="partnership.html">PARTNERSHIP</a>
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="who-we-are.html">WHO WE ARE</a>
+      <a href="partnership.html#donate" class="mt-6 bg-primary-container text-on-primary font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:opacity-90 transition-opacity">Donate</a>
+    </div>
+  </div>
+
+  <main class="pt-[80px]">
+
+    <!-- Site-wide Petition Banner -->
+    <div class="bg-secondary-container/50 border-b border-outline-variant/30 px-6 md:px-12 py-2.5">
+      <div class="max-w-screen-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm text-center">
+        <span class="font-serif text-stone-700">Stand with us for music education in our schools.</span>
+        <a href="https://www.change.org/wevegotrhythm" target="_blank" rel="noopener" class="font-label-sm text-xs uppercase tracking-widest text-primary border-b border-primary hover:opacity-80 inline-flex items-center gap-1 whitespace-nowrap">
+          Sign the Petition
+          <span class="material-symbols-outlined text-sm">arrow_outward</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Header -->
+    <section class="relative h-[400px] w-full overflow-hidden flex items-center justify-center bg-stone-900">
+      <div class="absolute inset-0 opacity-60">
+        <img class="w-full h-full object-cover" alt="The interior of Carnegie Hall, viewed from the stage" src="images/carnegie_hall_from_stage_horizontal.jpg"/>
+      </div>
+      <div class="relative z-10 text-center px-4 max-w-4xl">
+        <h1 class="font-headline-xl text-headline-xl text-on-primary tracking-[0.1em] uppercase leading-none drop-shadow-xl">VISION</h1>
+        <p class="font-serif italic text-on-primary/90 text-base md:text-lg mt-4 max-w-xl mx-auto drop-shadow">Equitable access to artistic excellence: cultivating confidence, ambition, and belonging since 2012.</p>
+        <div class="mt-6 flex justify-center">
+          <div class="h-[1px] w-24 bg-on-primary/50"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Vision Feature Spread -->
+    <section class="px-6 md:px-margin-edge bg-surface-container-low py-section-gap">
+      <div class="max-w-container-max mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8">
+
+          <!-- Big Card: Our Vision -->
+          <div class="md:col-span-8 bg-white p-8 md:p-12 rounded-lg border border-outline-variant/30 flex flex-col justify-between min-h-[320px]">
+            <div>
+              <span class="font-label-sm text-label-sm text-secondary tracking-widest uppercase block mb-3">Vision</span>
+              <h2 class="font-headline-lg text-headline-lg text-on-surface mb-5">A universal right, not a privilege.</h2>
+              <div class="space-y-4 max-w-xl">
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">We envision a world where music education and meaningful cultural experiences are accessible to every young person, regardless of family income or circumstance.</p>
+                <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Since 2012, We've Got Rhythm has worked to connect young people from under-resourced communities with opportunities that might otherwise remain out of reach, from free instruments and complimentary access to world-class performances to direct engagement with the artists who inspire them.</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <img class="w-full h-56 object-cover rounded-lg" alt="A child receives violin instruction from an adult mentor" src="images/adult_child_violin.jpg.webp"/>
+            </div>
+          </div>
+
+          <!-- Mandate Card -->
+          <div class="md:col-span-4 bg-primary-container rounded-lg text-on-primary flex flex-col overflow-hidden">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img class="w-full h-full object-cover" alt="A pianist greets young students backstage at Carnegie Hall after a #RhythmSupport performance" src="images/rhythmsupport_backstage_carnegie_2018a.jpg"/>
+            </div>
+            <div class="p-8 md:p-10 flex-1 flex flex-col justify-center space-y-3">
+              <span class="material-symbols-outlined text-3xl mb-1">workspace_premium</span>
+              <h3 class="font-headline-md text-headline-md mb-2 leading-tight">Backstage Access</h3>
+              <p class="font-body-md opacity-90 leading-relaxed">After the final ovation, #RhythmSupport creates opportunities for students to go beyond the audience and meet accomplished artists backstage.</p>
+              <p class="font-body-md opacity-90 leading-relaxed">These encounters can make extraordinary achievement feel more immediate and human, helping young people see that concert halls, stages, and artistic communities are spaces in which they can belong.</p>
+            </div>
+          </div>
+
+          <!-- Why It Matters: 3 Cards -->
+          <div class="md:col-span-4 bg-white border border-outline-variant/30 p-8 md:p-10 rounded-lg">
+            <span class="material-symbols-outlined text-primary text-4xl mb-3">visibility</span>
+            <h3 class="font-headline-md text-on-surface mb-3 text-2xl">Exposure to Excellence</h3>
+            <p class="font-body-md text-on-surface-variant leading-relaxed">Witnessing virtuoso performers in historic venues such as Carnegie Hall can expand a young person's understanding of what discipline, preparation, and dedication can achieve.</p>
+          </div>
+
+          <div class="md:col-span-4 bg-white border border-outline-variant/30 p-8 md:p-10 rounded-lg">
+            <span class="material-symbols-outlined text-primary text-4xl mb-3">handshake</span>
+            <h3 class="font-headline-md text-on-surface mb-3 text-2xl">Personal Connections</h3>
+            <p class="font-body-md text-on-surface-variant leading-relaxed">Meeting artists face-to-face helps demystify the craft. The performer onstage becomes a real person with a story, a process, and a path of their own, making excellence feel less distant and possibility more tangible.</p>
+          </div>
+
+          <div class="md:col-span-4 bg-white border border-outline-variant/30 p-8 md:p-10 rounded-lg">
+            <span class="material-symbols-outlined text-primary text-4xl mb-3">favorite</span>
+            <h3 class="font-headline-md text-on-surface mb-3 text-2xl">Lifelong Impact</h3>
+            <p class="font-body-md text-on-surface-variant leading-relaxed">For most of our students, this is their very first live concert hall experience. That electric first encounter ignites disciplined practice and lifelong creative confidence.</p>
+          </div>
+
+          <!-- The See Our Work teaser -->
+          <div class="md:col-span-12 bg-secondary-container/30 border border-secondary-container p-8 md:p-10 rounded-lg flex flex-col md:flex-row gap-8 items-center">
+            <div class="w-full md:w-1/3">
+              <img class="w-full h-40 object-cover rounded-lg" alt="A young student learning guitar from a teacher" src="images/man_teaches_boy_guitar.jpeg"/>
+            </div>
+            <div class="flex-1">
+              <span class="font-label-sm text-label-sm text-primary tracking-widest uppercase block mb-2">Up Next</span>
+              <h3 class="font-headline-md text-headline-md text-on-surface mb-2">See Our Work</h3>
+              <p class="font-body-md text-on-surface-variant mb-4">Explore how our vision becomes action through two cornerstone initiatives: BEATS (Bringing Equipment &amp; Access To Students) and #RhythmSupport.</p>
+              <a class="inline-flex items-center gap-2 group font-label-sm text-label-sm text-primary tracking-widest uppercase font-semibold hover:opacity-80 transition-opacity" href="programs.html"><span>Explore Our Programs</span><span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Final Call to Action -->
+    <section class="py-section-gap px-4 sm:px-6 md:px-margin-edge max-w-3xl mx-auto text-center">
+      <span class="material-symbols-outlined text-primary text-5xl mb-6">verified</span>
+      <h2 class="font-headline-lg text-lg min-[380px]:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-on-surface mb-5 whitespace-nowrap tracking-tight sm:tracking-normal">Stand With Us for Music Equity</h2>
+      <p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-2xl mx-auto leading-relaxed">
+        Help us reduce economic barriers to music education and meaningful cultural experiences. Your support helps provide instruments, concert tickets, transportation when needed, and extraordinary opportunities for young people who might otherwise lack access.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="https://www.paypal.com/ncp/payment/SS4DUEFAZWZTC" target="_blank" rel="noopener" class="bg-primary text-on-primary px-10 py-4 rounded-lg font-label-sm text-label-sm tracking-widest uppercase hover:bg-primary-fixed-dim transition-colors inline-flex items-center justify-center gap-2">Donate Today <span class="material-symbols-outlined text-base">arrow_outward</span></a>
+        <a href="partnership.html#partner" class="border border-outline px-10 py-4 rounded-lg font-label-sm text-label-sm tracking-widest uppercase text-on-surface hover:bg-surface-container transition-colors">Partner With Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="bg-stone-100 border-t-2 border-primary/20">
+    <div class="max-w-screen-2xl mx-auto px-6 md:px-12 py-12 md:py-14">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 pb-10 mb-8 border-b border-stone-200">
+        <div class="md:col-span-4">
+          <span class="text-xl font-serif font-black tracking-tighter block mb-3"><span class="text-[#7d7d7d]">We've Got</span> <span class="text-[#b01b14]">Rhythm</span></span>
+          <p class="font-serif italic text-stone-600 mb-4 text-sm">"We Want to Share!"</p>
+          <p class="text-sm text-stone-600 leading-relaxed">A 501(c)(3) nonprofit dedicated to advancing music education for young people.</p>
+        </div>
+
+        <div class="md:col-span-2">
+          <p class="font-label-sm text-xs uppercase tracking-widest text-stone-500 mb-4">Explore</p>
+          <ul class="space-y-2.5">
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="vision.html">Vision</a></li>
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="programs.html">Programs</a></li>
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="impact.html">Impact</a></li>
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="partnership.html">Partnership</a></li>
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="who-we-are.html">Who We Are</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-3">
+          <p class="font-label-sm text-xs uppercase tracking-widest text-stone-500 mb-4">Connect</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSffo7x7MO0QhBbVLtPtFMg33N_Oa8FbC3RZKs5U8yfG1VLlFQ/viewform" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-5 group">
+            <span class="material-symbols-outlined text-base">mail</span>Get in Touch
+            <span class="material-symbols-outlined text-base opacity-0 group-hover:opacity-100 transition-opacity -ml-1">arrow_forward</span>
+          </a>
+          <div class="flex gap-3">
+            <a href="https://www.instagram.com/wevegotrhythm/" target="_blank" rel="noopener" aria-label="Instagram" class="w-10 h-10 rounded-full bg-white border border-stone-200 flex items-center justify-center text-stone-600 hover:bg-primary hover:text-white hover:border-primary transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/wevegotrhythm" target="_blank" rel="noopener" aria-label="Facebook" class="w-10 h-10 rounded-full bg-white border border-stone-200 flex items-center justify-center text-stone-600 hover:bg-primary hover:text-white hover:border-primary transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+            </a>
+            <a href="https://x.com/WeveGotRhythm" target="_blank" rel="noopener" aria-label="X (Twitter)" class="w-10 h-10 rounded-full bg-white border border-stone-200 flex items-center justify-center text-stone-600 hover:bg-primary hover:text-white hover:border-primary transition-colors">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="md:col-span-3">
+          <p class="font-label-sm text-xs uppercase tracking-widest text-stone-500 mb-4">Newsletter</p>
+          <form action="https://wevegotrhythm.us15.list-manage.com/subscribe/post?u=f1938ceba8d1572ce5ae8315c&amp;id=ea3d87d42c&amp;f_id=003749e0f0" method="post" target="_blank" novalidate class="space-y-2">
+            <input type="email" name="EMAIL" placeholder="Your email" aria-label="Your email" required class="w-full px-3 py-2 rounded-md border border-stone-300 text-sm focus:border-primary focus:outline-none transition-colors"/>
+            <div style="position:absolute; left:-5000px;" aria-hidden="true"><input type="text" name="b_f1938ceba8d1572ce5ae8315c_ea3d87d42c" tabindex="-1" value=""/></div>
+            <button type="submit" class="w-full bg-primary text-white px-3 py-2 rounded-md text-xs uppercase tracking-widest hover:opacity-90 transition-opacity">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-stone-500">
+        <p class="font-serif">© 2025 We've Got Rhythm. All rights reserved.</p>
+        <p class="font-serif tracking-wide uppercase">501(c)(3) Nonprofit</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
