@@ -1,98 +1,90 @@
-# We've Got Rhythm (WGR) — Official Website
+# We've Got Rhythm — Official Website
 
-> **"We Want to Share!"**  
-> We've Got Rhythm is a 501(c)(3) youth music education nonprofit established in 2012, dedicated to expanding equitable access to music and the performing arts for students and families.  
-> **Live Site:** [https://www.wevegotrhythm.org](https://www.wevegotrhythm.org)
+Official website repository for We've Got Rhythm (WGR), a 501(c)(3) youth music education nonprofit established in 2012.
 
----
+Production site: [www.wevegotrhythm.org](https://www.wevegotrhythm.org)
 
 ## Overview
 
-This repository hosts the official static website for **We've Got Rhythm** ([www.wevegotrhythm.org](https://www.wevegotrhythm.org)). It is engineered to be lightweight, accessible, and fast, requiring zero complex build pipelines or server-side dependencies.
+This repository contains the source code for the We've Got Rhythm website.
 
-### Core Programs Highlighted
-* **BEATS (Bringing Equipment & Access To Students)**: Placing donated violins, cellos, guitars, keyboards, and wind instruments directly into the hands of aspiring young musicians.
-* **#RhythmSupport**: Providing 100% complimentary concert tickets, family transit support, and intimate backstage artist mentorship at premier venues including Carnegie Hall.
+The site is a static HTML, CSS, and JavaScript project with no server-side application or required build process.
 
----
+WGR's primary programs include:
+* **BEATS (Bringing Equipment & Access To Students)** — expanding access to musical instruments for young musicians.
+* **#RhythmSupport** — providing students and families with complimentary concert experiences, transportation support, and opportunities to meet performing artists.
 
-## Tech Stack & Architecture
+## Technology
 
-* **Markup**: Semantic HTML5 with WCAG 2.1 AA accessibility standards (ARIA landmarks, screen reader announcements, keyboard navigation).
-* **Styling**: Tailwind CSS (with customized brand design tokens in `js/tailwind-config.js`) and bespoke CSS animations in `css/styles.css`.
-* **Typography**: IBM Plex Sans (Body), Noto Serif (Headlines), and Manrope (Labels).
-* **Scripts**: Modern Vanilla JavaScript (ES6+):
-  * `js/main.js`: Responsive 3-zone header navigation, 3D flip hamburger toggle, Escape-key traps, and viewport resize listeners.
-  * `js/slideshow.js`: Homepage hero image carousel with accessible controls and hover/focus pause behavior.
-  * `js/tailwind-config.js`: Centralized design tokens (color palette, spacing units, typography scales).
-* **Integrations**:
-  * **Newsletter**: Direct Mailchimp integration with built-in bot honeypot protection.
-  * **Donations**: PayPal hosted checkout and direct digital giving channels.
-  * **Inquiries**: Google Forms direct routing for instrument donations, mentoring, and school partnerships.
+* **HTML5** — semantic page structure and accessibility-oriented markup
+* **Tailwind CSS** — utility styling loaded via CDN with runtime design tokens
+* **Custom CSS** — site-specific layout, navigation, and interface transitions (`css/styles.css`)
+* **Vanilla JavaScript (ES6+)** — navigation, slideshow behavior, and interface interactions
+* **Mailchimp** — newsletter subscriptions
+* **PayPal** — online donations
+* **Google Forms** — program and partnership inquiries
 
----
+Accessibility considerations include semantic HTML, keyboard navigation, ARIA where appropriate, and reduced reliance on pointer-only interactions.
 
-## Directory Structure
+## Project Structure
 
 ```text
-├── index.html              # Homepage (Mission, Hero Carousel, Key Programs, Community)
-├── vision.html             # Vision & Philosophy (Access, Mentorship, Transformation)
-├── programs.html           # Programs Breakdown (BEATS, #RhythmSupport, School Gateway)
-├── impact.html             # Impact & Stories (Student narratives, backstage spotlight, metrics)
-├── partnership.html        # Get Involved (Instrument donation guide, mentoring, sponsorships)
-├── who-we-are.html         # Leadership, story, and organizational transparency
-├── journey.html            # Client-side redirect preserving legacy links to programs.html
-├── CNAME                   # Custom apex domain routing (www.wevegotrhythm.org)
-├── .nojekyll               # Disables Jekyll processing for direct static pass-through
-├── .gitignore              # Ignores OS artifacts and IDE metadata
+├── index.html          # Homepage
+├── vision.html         # Organization vision and principles
+├── programs.html       # BEATS and #RhythmSupport program details
+├── impact.html         # Student impact and backstage experiences
+├── partnership.html    # Donation, volunteer, and partnership pathways
+├── who-we-are.html     # Leadership and organization background
+├── journey.html        # Client-side redirect preserving legacy links to programs.html
+├── CNAME               # Domain mapping for custom domain (www.wevegotrhythm.org)
+├── .nojekyll           # Bypasses Jekyll processing on GitHub Pages
+├── .gitignore          # Ignores OS artifacts and editor files
 ├── css/
-│   └── styles.css          # Custom 3D flip navigation mechanics and layout utilities
+│   └── styles.css      # Core styles, navigation drawer, and 3D toggle mechanics
 ├── js/
-│   ├── main.js             # Core navigation controller and accessibility listeners
-│   ├── slideshow.js        # Homepage hero slideshow controller
-│   └── tailwind-config.js  # Centralized Tailwind design token configuration
-├── images/                 # Optimized photography and vector assets
-└── wgr_logo.svg            # Official brand vector emblem
+│   ├── main.js         # Site navigation and shared interface behavior
+│   ├── slideshow.js    # Homepage slideshow controller
+│   └── tailwind-config.js # Shared Tailwind design token configuration
+├── images/             # Static image assets
+└── wgr_logo.svg        # Organization vector logo
 ```
 
----
+## JavaScript
 
-## Local Development & Preview
+* `js/main.js` — site navigation and shared interface behavior
+* `js/slideshow.js` — homepage slideshow behavior
+* `js/tailwind-config.js` — shared Tailwind design configuration
 
-Because the site is built on pure static HTML/CSS/JS, no build step is required. You can serve the repository locally using any lightweight HTTP server:
+## Local Development
 
-### Option A: Using Python (Built-in)
+No build step is required. Serve the project root with any standard static HTTP server.
+
+### Python
 ```bash
-# Python 3
 python -m http.server 8000
 ```
-Then visit `http://localhost:8000` in your web browser.
+Then open: `http://localhost:8000`
 
-### Option B: Using Node.js (npx)
+### Node.js
 ```bash
 npx serve .
 ```
 
-### Option C: VS Code Live Server
-Right-click `index.html` and select **"Open with Live Server"**.
-
----
+### VS Code
+The site can also be previewed using the Live Server extension.
 
 ## Deployment
 
-### GitHub Pages
-1. Push this repository to GitHub.
-2. In your repository settings, navigate to **Settings** > **Pages**.
-3. Under **Branch**, select `main` (or `master`) and folder `/ (root)`.
-4. Click **Save**. The site will be live within minutes.
+The production site is deployed through Netlify.
 
-### Netlify / Vercel / Cloudflare Pages
-* **Build Command**: *(None needed / leave blank)*
-* **Publish Directory**: `.` (root directory)
+The GitHub repository is the source-control repository for the website. Changes intended for production are committed to the configured production branch (`main`) and deployed by Netlify.
 
----
+Because the project is static:
+* **Build command:** `none` (leave blank)
+* **Publish directory:** `.` (root directory)
+* **Production domain:** `www.wevegotrhythm.org`
 
-## License & Copyright
+## Copyright
 
 &copy; 2012–Present We've Got Rhythm. All rights reserved.  
-We've Got Rhythm is a registered 501(c)(3) nonprofit organization.
+We've Got Rhythm is a 501(c)(3) nonprofit organization.
