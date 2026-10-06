@@ -29,7 +29,9 @@ Accessibility considerations include semantic HTML, keyboard navigation, ARIA wh
 ## Project Structure
 
 ```text
-├── index.html          # Homepage
+├── index.html          # Homepage with 2026 campaign spotlight
+├── rhythmsupport-2026.html # Dedicated 2026 #RhythmSupport Carnegie Hall campaign page
+├── thank-you.html       # Post-donation appreciation and community connection
 ├── vision.html         # Organization vision and principles
 ├── programs.html       # BEATS and #RhythmSupport program details
 ├── impact.html         # Student impact and backstage experiences
@@ -42,6 +44,7 @@ Accessibility considerations include semantic HTML, keyboard navigation, ARIA wh
 ├── css/
 │   └── styles.css      # Core styles, navigation drawer, and 3D toggle mechanics
 ├── js/
+│   ├── campaign-config.js # Centralized donation routing and campaign configuration
 │   ├── main.js         # Site navigation and shared interface behavior
 │   ├── slideshow.js    # Homepage slideshow controller
 │   └── tailwind-config.js # Shared Tailwind design token configuration
@@ -51,6 +54,7 @@ Accessibility considerations include semantic HTML, keyboard navigation, ARIA wh
 
 ## JavaScript
 
+* `js/campaign-config.js` — centralized donation routing (`data-wgr-donate-link`) and campaign parameters
 * `js/main.js` — site navigation and shared interface behavior
 * `js/slideshow.js` — homepage slideshow behavior
 * `js/tailwind-config.js` — shared Tailwind design configuration

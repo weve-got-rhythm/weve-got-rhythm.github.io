@@ -132,3 +132,11 @@ body.menu-open #mobile-menu {
   background: linear-gradient(to right, transparent, #e2beba, transparent);
 }
 
+/* ==========================================================================
+   2026 #RhythmSupport Campaign Utilities
+   ========================================================================== */
+
+#campaign-progress-bar {
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
