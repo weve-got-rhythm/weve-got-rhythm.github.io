@@ -22,7 +22,7 @@ WGR's primary programs include:
 * **Vanilla JavaScript (ES6+)** — navigation, slideshow behavior, and interface interactions
 * **Mailchimp** — newsletter subscriptions
 * **PayPal** — online donations
-* **Google Forms** — program and partnership inquiries
+* **Netlify Forms** — community, school, and instrument inquiries
 
 Accessibility considerations include semantic HTML, keyboard navigation, ARIA where appropriate, and reduced reliance on pointer-only interactions.
 
@@ -31,7 +31,9 @@ Accessibility considerations include semantic HTML, keyboard navigation, ARIA wh
 ```text
 ├── index.html          # Homepage with 2026 campaign spotlight
 ├── rhythmsupport-2026.html # Dedicated 2026 #RhythmSupport Carnegie Hall campaign page
-├── thank-you.html       # Post-donation appreciation and community connection
+├── get-involved.html   # Community gateway and dynamic program inquiry intake
+├── inquiry-received.html # Submission confirmation screen
+├── thank-you.html      # Post-donation appreciation and community connection
 ├── vision.html         # Organization vision and principles
 ├── programs.html       # BEATS and #RhythmSupport program details
 ├── impact.html         # Student impact and backstage experiences

@@ -40,7 +40,8 @@ html {
 [id="donate"],
 [id="partner"],
 [id="board"],
-[id="mission"] {
+[id="mission"],
+[id="opportunity"] {
   scroll-margin-top: 100px;
 }
 

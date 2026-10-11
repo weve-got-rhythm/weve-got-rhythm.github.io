@@ -8,18 +8,18 @@
  */
 
 window.WGR_CAMPAIGN = {
-  // Centralized PayPal Donation URL (Update here to change site-wide)
-  paypalUrl: "https://www.paypal.com/ncp/payment/SS4DUEFAZWZTC",
+  // Centralized PayPal Donation URL (Default across all donate buttons)
+  paypalUrl: "https://www.paypal.com/donate?campaign_id=EJ9RZR8CBF69A",
+  campaignId: "EJ9RZR8CBF69A",
 
   // 2026 #RhythmSupport Campaign Parameters
   campaign: {
     id: "rhythmsupport-2026",
-    title: "2026 #RhythmSupport Carnegie Hall Campaign",
+    title: "#RhythmSupport2026 Carnegie Hall Campaign",
     goalAmount: 7500,
     raisedAmount: null, // Set to numeric value (e.g., 2500) when verified; null hides progress bar
     lastUpdated: null,
     targetStudents: 75,
-    communitySeats: 150,
     eventDate: "Sunday, December 27, 2026, 2:00 PM",
     venue: "Stern Auditorium / Perelman Stage, Carnegie Hall",
     location: "881 Seventh Avenue, New York, NY 10019",
@@ -30,10 +30,15 @@ window.WGR_CAMPAIGN = {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. Sync all centralized donation links site-wide
+  // 1. Sync all centralized donation links site-wide (with dynamic amount pre-population)
   const donateLinks = document.querySelectorAll("[data-wgr-donate-link]");
   donateLinks.forEach((link) => {
-    link.href = window.WGR_CAMPAIGN.paypalUrl;
+    const amount = link.getAttribute("data-wgr-donate-amount");
+    if (amount) {
+      link.href = `https://www.paypal.com/donate?campaign_id=${window.WGR_CAMPAIGN.campaignId}&amount=${encodeURIComponent(amount)}`;
+    } else {
+      link.href = window.WGR_CAMPAIGN.paypalUrl;
+    }
     link.target = "_blank";
     link.rel = "noopener noreferrer";
   });

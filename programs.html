@@ -36,20 +36,25 @@
         <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-stone-500 hover:text-red-700 transition-colors duration-300" href="who-we-are.html">WHO WE ARE</a>
       </div>
 
-      <!-- Mobile Menu Toggle: Centered Animated WGR Logo Button (3D Flip) -->
-      <button id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden relative w-12 h-10 flex items-center justify-center text-stone-700 hover:text-red-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded">
-        <!-- Front face: WGR Logo Mark -->
-        <div class="toggle-logo-icon absolute inset-0 flex items-center justify-center">
-          <img src="images/wgr_logo.svg" alt="Open menu" class="h-6 w-auto" width="60" height="23"/>
-        </div>
-        <!-- Back face: Dismiss Close '✕' Icon -->
-        <div class="toggle-close-icon absolute inset-0 flex items-center justify-center text-primary">
-          <span class="material-symbols-outlined text-2xl font-bold">close</span>
-        </div>
-      </button>
+      <!-- Action Buttons (Option A: Paired Inquire/Register + Donate) -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Inquire / Register Button -->
+        <a href="get-involved.html" class="border border-stone-300 hover:border-red-700 text-stone-800 hover:text-red-700 font-serif tracking-[0.14em] uppercase text-[11px] sm:text-xs font-bold px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg transition-colors whitespace-nowrap">Inquire / Register</a>
+        
+        <!-- Donate Action Button -->
+        <a href="https://www.paypal.com/donate?campaign_id=EJ9RZR8CBF69A" data-wgr-donate-link target="_blank" rel="noopener noreferrer" class="bg-primary-container text-on-primary font-serif tracking-[0.14em] uppercase text-[11px] sm:text-xs font-bold px-3.5 sm:px-4 md:px-5 py-2 sm:py-2.5 rounded-lg active:opacity-80 transition-opacity whitespace-nowrap">Donate</a>
 
-      <!-- Donate Action Button -->
-      <a href="partnership.html#donate" class="bg-primary-container text-on-primary font-serif tracking-[0.16em] sm:tracking-[0.2em] uppercase text-[11px] sm:text-xs font-bold px-3.5 sm:px-4 md:px-6 py-2 sm:py-2.5 rounded-lg active:opacity-80 transition-opacity flex-shrink-0">Donate</a>
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden relative w-10 h-10 flex items-center justify-center text-stone-700 hover:text-red-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded ml-1">
+          <div class="toggle-logo-icon absolute inset-0 flex items-center justify-center">
+            <img src="images/wgr_logo.svg" alt="Open menu" class="h-5 w-auto" width="50" height="19"/>
+          </div>
+          <div class="toggle-close-icon absolute inset-0 flex items-center justify-center text-primary">
+            <span class="material-symbols-outlined text-2xl font-bold">close</span>
+          </div>
+        </button>
+      </div>
+
     </div>
   </nav>
 
@@ -61,19 +66,23 @@
       <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="impact.html">IMPACT</a>
       <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="partnership.html">PARTNERSHIP</a>
       <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="who-we-are.html">WHO WE ARE</a>
-      <a href="partnership.html#donate" class="mt-6 bg-primary-container text-on-primary font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:opacity-90 transition-opacity">Donate</a>
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="get-involved.html">GET INVOLVED</a>
+      <div class="mt-6 flex flex-col gap-3">
+        <a href="get-involved.html" class="border border-stone-300 text-stone-800 font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:border-red-700 hover:text-red-700 transition-colors">Inquire / Register</a>
+        <a href="https://www.paypal.com/donate?campaign_id=EJ9RZR8CBF69A" data-wgr-donate-link target="_blank" rel="noopener noreferrer" class="bg-primary-container text-on-primary font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:opacity-90 transition-opacity">Donate</a>
+      </div>
     </div>
   </div>
 
   <main class="pt-[80px]">
 
-    <!-- Site-wide Petition Banner -->
-    <div class="bg-secondary-container/50 border-b border-outline-variant/30 px-6 md:px-12 py-2.5">
+    <!-- Site-wide 2026 Campaign Alert Banner (Vision-Led Framing) -->
+    <div class="bg-primary/5 border-b border-primary/15 px-6 md:px-12 py-2.5">
       <div class="max-w-screen-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm text-center">
-        <span class="font-serif text-stone-700">Stand with us for music education in our schools.</span>
-        <a href="https://www.change.org/wevegotrhythm" target="_blank" rel="noopener" class="font-label-sm text-xs uppercase tracking-widest text-primary border-b border-primary hover:opacity-80 inline-flex items-center gap-1 whitespace-nowrap">
-          Sign the Petition
-          <span class="material-symbols-outlined text-sm">arrow_outward</span>
+        <span class="font-serif text-stone-700">#RhythmSupport2026: Opening the doors of Carnegie Hall to students and families in the New York metropolitan area this December.</span>
+        <a href="rhythmsupport-2026.html" class="font-label-sm text-xs uppercase tracking-widest text-primary border-b border-primary hover:opacity-80 inline-flex items-center gap-1 whitespace-nowrap">
+          Explore the Initiative
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
         </a>
       </div>
     </div>
@@ -102,12 +111,22 @@
           </div>
           <div>
             <span class="font-label-sm text-primary tracking-widest text-[11px] mb-2 block">PHASE I: ACCESS</span>
-            <h2 class="font-headline-md text-headline-md mb-3 border-b border-outline pb-3">BEATS</h2>
+            <h2 class="font-headline-md text-headline-md mb-1">BEATS</h2>
+            <p class="font-serif italic text-stone-600 text-sm mb-3 border-b border-outline pb-3">Bringing Equipment &amp; Access To Students</p>
             <div class="font-body-md text-on-surface-variant space-y-3">
               <p>For many young people, access to music education begins with a simple question: Do they have an instrument of their own?</p>
-              <p>For families already balancing essential expenses, the cost of a violin, cello, guitar, keyboard, or other instrument can become an absolute barrier to participation. Without one at home, practice is limited, progress slows, and a young person may never get the chance to discover how far their interest or ability could take them.</p>
-              <p>Through BEATS, we work with families, schools, and community partners to place instruments directly into the hands of young people who need them.</p>
-              <p>Owning an instrument changes the relationship with music. It gives a student the freedom to practice on their own time, build confidence through repetition, and begin to see music not as something they visit in a classroom, but as something that belongs to them.</p>
+              <p>For families balancing essential expenses, instrument rental fees or purchase costs create an immediate barrier. Without an instrument at home, practice is limited, progress slows, and a young person may never discover how far their musical interest could take them.</p>
+              <p>Through BEATS, we curate worthy, well-loved instruments and find new musical homes for them. We place quality instruments directly into the hands of aspiring students and partner public school classrooms at zero cost, so that practice never has to wait.</p>
+              <p>Owning an instrument changes a young person's relationship with music. It gives them the freedom to practice on their own time, build confidence through repetition, and see music as something that truly belongs to them.</p>
+            </div>
+            <div class="mt-5 flex flex-wrap gap-2.5 pt-2">
+              <a href="get-involved.html?interest=beats#inquiry-form" class="inline-flex items-center gap-1.5 bg-primary text-on-primary px-4 py-2 rounded-lg font-label-sm text-xs uppercase tracking-widest hover:opacity-90 transition-opacity">
+                Inquire for School / Student
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+              </a>
+              <a href="get-involved.html?interest=donate#inquiry-form" class="inline-flex items-center gap-1.5 border border-outline text-stone-700 px-4 py-2 rounded-lg font-label-sm text-xs uppercase tracking-widest hover:bg-surface-container transition-colors">
+                Donate an Instrument
+              </a>
             </div>
           </div>
         </div>
@@ -141,17 +160,17 @@
               <p>Through #RhythmSupport, we provide young people with complimentary concert access, include parents and guardians when possible, help with transportation when needed, and create opportunities to meet performing artists backstage.</p>
               <p>The experience is about more than attending a concert. Seeing extraordinary musicians perform up close, entering renowned cultural spaces, and speaking directly with artists can make excellence feel more human, more accessible, and more imaginable.</p>
               
-              <!-- 2026 Campaign Callout -->
+              <!-- #RhythmSupport2026 Initiative Callout -->
               <div class="mt-4 p-4 rounded-lg bg-surface-container border border-outline-variant/60">
                 <div class="flex items-center gap-1.5 font-label-sm text-xs text-primary uppercase tracking-widest mb-1.5 font-bold">
                   <span class="material-symbols-outlined text-sm">campaign</span>
-                  2026 Initiative
+                  #RhythmSupport2026 Initiative
                 </div>
                 <p class="text-xs text-stone-700 leading-relaxed mb-3">
                   This December 27, We've Got Rhythm aims to welcome approximately 75 students and their families to Carnegie Hall. Experience inspires young musicians to achieve and reimagine their own potential.
                 </p>
                 <a href="rhythmsupport-2026.html" class="inline-flex items-center gap-1.5 text-xs font-label-sm text-primary uppercase tracking-widest font-semibold hover:opacity-80 transition-opacity">
-                  Learn More &amp; Support
+                  Explore the Initiative
                   <span class="material-symbols-outlined text-sm">arrow_forward</span>
                 </a>
               </div>
@@ -172,61 +191,171 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
 
-          <!-- Pillar 1: Instruments We Accept (BEATS) -->
-          <div class="p-8 md:p-10 border border-outline-variant rounded-lg bg-white hover:bg-surface-container transition-colors duration-300">
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary-fixed text-primary mb-6">
-              <span class="material-symbols-outlined">music_note</span>
+          <!-- Pillar 1: Curated Instruments (BEATS) -->
+          <div class="p-8 md:p-10 border border-outline-variant rounded-lg bg-white hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary-fixed text-primary mb-6">
+                <span class="material-symbols-outlined">music_note</span>
+              </div>
+              <h5 class="font-headline-md text-xl mb-3 uppercase tracking-tighter">Curated Instruments</h5>
+              <p class="font-body-md text-sm text-stone-600 mb-4">
+                We curate worthy, playable instruments contributed by community members and place them directly with students and partner public school classrooms at zero cost.
+              </p>
+              <ul class="space-y-2 text-xs font-body-md text-stone-700">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Violins &amp; Cellos</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Keyboards &amp; Pianos</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Guitars &amp; Drums</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Brass &amp; Woodwinds</li>
+              </ul>
             </div>
-            <h5 class="font-headline-md text-xl mb-4 uppercase tracking-tighter">Instruments We Accept</h5>
-            <ul class="space-y-3">
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Violins &amp; Cellos</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Keyboards</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Guitars</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Drums</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Wind Instruments</span></li>
-            </ul>
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <a href="#inquire" class="inline-flex items-center gap-1 font-label-sm text-xs text-primary uppercase tracking-widest font-bold hover:opacity-80">
+                Donate or Request
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+              </a>
+            </div>
           </div>
 
-          <!-- Pillar 2: Education & Opportunity -->
-          <div class="p-8 md:p-10 border border-outline-variant rounded-lg bg-white hover:bg-surface-container transition-colors duration-300">
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary-fixed text-primary mb-6">
-              <span class="material-symbols-outlined">menu_book</span>
+          <!-- Pillar 2: Music Mentors in Our Schools -->
+          <div class="p-8 md:p-10 border border-outline-variant rounded-lg bg-white hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary-fixed text-primary mb-6">
+                <span class="material-symbols-outlined">school</span>
+              </div>
+              <h5 class="font-headline-md text-xl mb-3 uppercase tracking-tighter">Music Mentors</h5>
+              <p class="font-body-md text-sm text-stone-600 mb-4">
+                In-school assemblies, interactive classroom masterclasses, and artist mentorship connecting New York metropolitan area schools with our growing roster of professional musicians.
+              </p>
+              <ul class="space-y-2 text-xs font-body-md text-stone-700">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>School-wide assembly performances</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Classroom coaching &amp; masterclasses</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Q&amp;A on artistic discipline and career paths</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Welcoming new artists to our mentoring roster</li>
+              </ul>
             </div>
-            <h5 class="font-headline-md text-xl mb-4 uppercase tracking-tighter">Education &amp; Opportunity</h5>
-            <ul class="space-y-3">
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Scholarships and educational support</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Artist led workshops</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">School and community partnerships</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Opportunities designed to build confidence and aspiration</span></li>
-            </ul>
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <a href="#inquire" class="inline-flex items-center gap-1 font-label-sm text-xs text-primary uppercase tracking-widest font-bold hover:opacity-80">
+                Inquire for School Visit
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+              </a>
+            </div>
           </div>
 
           <!-- Pillar 3: RhythmSupport -->
-          <div class="p-8 md:p-10 border border-outline-variant rounded-lg bg-white hover:bg-surface-container transition-colors duration-300">
-            <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary-fixed text-primary mb-6">
-              <span class="material-symbols-outlined">star</span>
+          <div class="p-8 md:p-10 border border-outline-variant rounded-lg bg-white hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 flex items-center justify-center rounded-full bg-primary-fixed text-primary mb-6">
+                <span class="material-symbols-outlined">star</span>
+              </div>
+              <h5 class="font-headline-md text-xl mb-3 uppercase tracking-tighter">#RhythmSupport</h5>
+              <p class="font-body-md text-sm text-stone-600 mb-4">
+                Complimentary concert admission, group transportation assistance, and intimate backstage artist conversations for students, parents, and chaperones.
+              </p>
+              <ul class="space-y-2 text-xs font-body-md text-stone-700">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>100% complimentary concert tickets</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Group transit assistance for school cohorts</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Backstage artist meet-and-greets</li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span>Family and chaperone inclusion</li>
+              </ul>
             </div>
-            <h5 class="font-headline-md text-xl mb-4 uppercase tracking-tighter">#RhythmSupport</h5>
-            <ul class="space-y-3">
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Free concert tickets</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Transportation to venues</span></li>
-              <li class="flex items-center gap-3"><span class="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0"></span><span class="font-body-md">Backstage meet and greets</span></li>
-            </ul>
+            <div class="mt-6 pt-4 border-t border-stone-100">
+              <a href="rhythmsupport-2026.html" class="inline-flex items-center gap-1 font-label-sm text-xs text-primary uppercase tracking-widest font-bold hover:opacity-80">
+                2026 Carnegie Hall Initiative
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+              </a>
+            </div>
           </div>
 
         </div>
       </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="py-section-gap px-6 md:px-margin-edge">
-      <div class="max-w-container-max mx-auto bg-primary py-12 md:py-16 px-6 md:px-12 rounded-lg text-center text-on-primary">
-        <h2 class="font-headline-lg text-headline-lg mb-6 uppercase tracking-tighter">Support the BEATS Program</h2>
-        <p class="font-body-lg mb-10 max-w-xl mx-auto opacity-90">Do you have an instrument gathering dust that could change a child's life? Reach out to our team about donating, or sponsor a student's first concert.</p>
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdoifbAejyymB0j2JLpstWu_rCkqN_1H8haQXxHit3RBfFGww/viewform" target="_blank" rel="noopener" class="bg-white text-primary px-10 py-4 rounded-lg font-label-sm hover:bg-secondary-container transition-colors uppercase tracking-widest">Donate an Instrument</a>
-          <a href="partnership.html" class="border border-white/30 text-white px-10 py-4 rounded-lg font-label-sm hover:bg-white/10 transition-colors uppercase tracking-widest">More Ways to Help</a>
+    <!-- Community & Educator Inquiry Section -->
+    <section id="inquire" class="py-section-gap px-6 md:px-margin-edge bg-white border-t border-outline-variant/30">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-8">
+          <span class="font-label-sm text-primary tracking-widest text-xs uppercase mb-2 block">GET INVOLVED &amp; ACCESS OUR PROGRAMS</span>
+          <h2 class="font-headline-lg text-2xl sm:text-3xl md:text-4xl text-on-surface mb-3">
+            Community &amp; Educator Inquiries
+          </h2>
+          <p class="font-body-md text-stone-600 leading-relaxed text-sm sm:text-base">
+            Whether you are a New York metropolitan area music educator seeking student concert access or an in-school artist assembly, a family seeking instrument access, or a supporter wishing to donate a worthy instrument, submit your details below.
+          </p>
         </div>
+
+        <!-- Participation & Vetting Disclosure -->
+        <div class="p-5 rounded-xl bg-surface-container-low border border-outline-variant/40 mb-8 text-xs text-stone-700 leading-relaxed">
+          <strong class="text-on-surface font-semibold block mb-1">Participation Notice &amp; Eligibility:</strong>
+          Participating groups and families must be located within the New York metropolitan area. Inquiries are subject to available capacity. Submit your details below and we will be in touch soon.
+        </div>
+
+        <!-- On-Brand Intake Form -->
+        <form id="wgr-inquiry-form" name="wgr-community-inquiry" method="POST" action="inquiry-received.html" data-netlify="true" class="space-y-5 bg-surface-container/20 p-6 sm:p-8 rounded-2xl border border-outline-variant/40">
+          <input type="hidden" name="form-name" value="wgr-community-inquiry"/>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-name">Your Name *</label>
+              <input type="text" id="inquiry-name" name="name" required class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white"/>
+            </div>
+            <div>
+              <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-email">Email Address *</label>
+              <input type="email" id="inquiry-email" name="email" required class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white"/>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-phone">Phone Number</label>
+              <input type="tel" id="inquiry-phone" name="phone" class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white"/>
+            </div>
+            <div>
+              <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-role">I am a... *</label>
+              <select id="inquiry-role" name="role" required class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white">
+                <option value="" disabled selected>Select your role</option>
+                <option value="Music Educator / School Leader">Music Educator / School Leader</option>
+                <option value="Community Organization Director">Community Organization Director</option>
+                <option value="Parent / Family">Parent / Family</option>
+                <option value="Instrument Donor / Supporter">Instrument Donor / Supporter</option>
+                <option value="Professional Musician / Mentor">Professional Musician / Mentor</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-school">School / Organization &amp; Borough *</label>
+              <input type="text" id="inquiry-school" name="school_org" placeholder="e.g. PS 123, Bronx (NY Metro Area)" required class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white"/>
+            </div>
+            <div>
+              <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-interest">Program of Interest *</label>
+              <select id="inquiry-interest" name="program_interest" required class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white">
+                <option value="" disabled selected>Select program</option>
+                <option value="Carnegie Hall School Cohort (#RS2026)">Carnegie Hall School Cohort (#RS2026)</option>
+                <option value="School Assembly or Artist Masterclass">School Assembly or Artist Masterclass</option>
+                <option value="Instrument Need for Student / Classroom (BEATS)">Instrument Need for Student / Classroom (BEATS)</option>
+                <option value="Donate a Worthy Instrument (BEATS)">Donate a Worthy Instrument (BEATS)</option>
+                <option value="Join Musician / Mentor Roster">Join Musician / Mentor Roster</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-label-sm text-xs uppercase tracking-wider text-stone-700 mb-1.5" for="inquiry-message">Details &amp; Estimated Group Size</label>
+            <textarea id="inquiry-message" name="message" rows="3" placeholder="Please share details such as grade levels, estimated student and chaperone count, instrument needs, or questions..." class="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm focus:border-primary focus:outline-none bg-white"></textarea>
+          </div>
+
+          <div class="pt-2">
+            <button type="submit" class="w-full bg-primary text-on-primary py-3.5 px-6 rounded-lg font-label-sm text-xs uppercase tracking-widest hover:opacity-90 active:opacity-80 transition-opacity text-center shadow-sm">
+              Submit Inquiry
+            </button>
+          </div>
+
+          <p class="text-center text-[11px] text-stone-500 pt-1">
+            We will review your inquiry and be in touch soon.
+          </p>
+        </form>
+
       </div>
     </section>
 
@@ -250,13 +379,18 @@
             <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="impact.html">Impact</a></li>
             <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="partnership.html">Partnership</a></li>
             <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="who-we-are.html">Who We Are</a></li>
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors font-semibold" href="get-involved.html">Get Involved</a></li>
           </ul>
         </div>
 
         <div class="md:col-span-3">
           <p class="font-label-sm text-xs uppercase tracking-widest text-stone-500 mb-4">Connect</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSffo7x7MO0QhBbVLtPtFMg33N_Oa8FbC3RZKs5U8yfG1VLlFQ/viewform" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-5 group">
+          <a href="get-involved.html#inquiry-form" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-2 group">
             <span class="material-symbols-outlined text-base">mail</span>Get in Touch
+            <span class="material-symbols-outlined text-base opacity-0 group-hover:opacity-100 transition-opacity -ml-1">arrow_forward</span>
+          </a>
+          <a href="https://www.change.org/wevegotrhythm" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-5 group">
+            <span class="material-symbols-outlined text-base">campaign</span>Advocacy &amp; Petition
             <span class="material-symbols-outlined text-base opacity-0 group-hover:opacity-100 transition-opacity -ml-1">arrow_forward</span>
           </a>
           <div class="flex gap-3">

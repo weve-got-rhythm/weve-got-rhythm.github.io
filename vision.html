@@ -36,20 +36,25 @@
         <a class="font-serif tracking-[0.2em] uppercase text-xs font-bold text-stone-500 hover:text-red-700 transition-colors duration-300" href="who-we-are.html">WHO WE ARE</a>
       </div>
 
-      <!-- Mobile Menu Toggle: Centered Animated WGR Logo Button (3D Flip) -->
-      <button id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden relative w-12 h-10 flex items-center justify-center text-stone-700 hover:text-red-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded">
-        <!-- Front face: WGR Logo Mark -->
-        <div class="toggle-logo-icon absolute inset-0 flex items-center justify-center">
-          <img src="images/wgr_logo.svg" alt="Open menu" class="h-6 w-auto" width="60" height="23"/>
-        </div>
-        <!-- Back face: Dismiss Close '✕' Icon -->
-        <div class="toggle-close-icon absolute inset-0 flex items-center justify-center text-primary">
-          <span class="material-symbols-outlined text-2xl font-bold">close</span>
-        </div>
-      </button>
+      <!-- Action Buttons (Option A: Paired Inquire/Register + Donate) -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Inquire / Register Button -->
+        <a href="get-involved.html" class="border border-stone-300 hover:border-red-700 text-stone-800 hover:text-red-700 font-serif tracking-[0.14em] uppercase text-[11px] sm:text-xs font-bold px-3 sm:px-4 py-2 sm:py-2.5 rounded-lg transition-colors whitespace-nowrap">Inquire / Register</a>
+        
+        <!-- Donate Action Button -->
+        <a href="https://www.paypal.com/donate?campaign_id=EJ9RZR8CBF69A" data-wgr-donate-link target="_blank" rel="noopener noreferrer" class="bg-primary-container text-on-primary font-serif tracking-[0.14em] uppercase text-[11px] sm:text-xs font-bold px-3.5 sm:px-4 md:px-5 py-2 sm:py-2.5 rounded-lg active:opacity-80 transition-opacity whitespace-nowrap">Donate</a>
 
-      <!-- Donate Action Button -->
-      <a href="partnership.html#donate" class="bg-primary-container text-on-primary font-serif tracking-[0.16em] sm:tracking-[0.2em] uppercase text-[11px] sm:text-xs font-bold px-3.5 sm:px-4 md:px-6 py-2 sm:py-2.5 rounded-lg active:opacity-80 transition-opacity flex-shrink-0">Donate</a>
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden relative w-10 h-10 flex items-center justify-center text-stone-700 hover:text-red-700 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-red-600 rounded ml-1">
+          <div class="toggle-logo-icon absolute inset-0 flex items-center justify-center">
+            <img src="images/wgr_logo.svg" alt="Open menu" class="h-5 w-auto" width="50" height="19"/>
+          </div>
+          <div class="toggle-close-icon absolute inset-0 flex items-center justify-center text-primary">
+            <span class="material-symbols-outlined text-2xl font-bold">close</span>
+          </div>
+        </button>
+      </div>
+
     </div>
   </nav>
 
@@ -61,19 +66,23 @@
       <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="impact.html">IMPACT</a>
       <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="partnership.html">PARTNERSHIP</a>
       <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="who-we-are.html">WHO WE ARE</a>
-      <a href="partnership.html#donate" class="mt-6 bg-primary-container text-on-primary font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:opacity-90 transition-opacity">Donate</a>
+      <a class="font-serif tracking-[0.2em] uppercase text-sm font-bold py-4 border-b border-stone-100 text-stone-800 hover:text-red-700 transition-colors" href="get-involved.html">GET INVOLVED</a>
+      <div class="mt-6 flex flex-col gap-3">
+        <a href="get-involved.html" class="border border-stone-300 text-stone-800 font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:border-red-700 hover:text-red-700 transition-colors">Inquire / Register</a>
+        <a href="https://www.paypal.com/donate?campaign_id=EJ9RZR8CBF69A" data-wgr-donate-link target="_blank" rel="noopener noreferrer" class="bg-primary-container text-on-primary font-serif tracking-[0.2em] uppercase text-xs font-bold px-6 py-3.5 rounded-lg text-center hover:opacity-90 transition-opacity">Donate</a>
+      </div>
     </div>
   </div>
 
   <main class="pt-[80px]">
 
-    <!-- Site-wide Petition Banner -->
-    <div class="bg-secondary-container/50 border-b border-outline-variant/30 px-6 md:px-12 py-2.5">
+    <!-- Site-wide 2026 Campaign Alert Banner (Vision-Led Framing) -->
+    <div class="bg-primary/5 border-b border-primary/15 px-6 md:px-12 py-2.5">
       <div class="max-w-screen-2xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm text-center">
-        <span class="font-serif text-stone-700">Stand with us for music education in our schools.</span>
-        <a href="https://www.change.org/wevegotrhythm" target="_blank" rel="noopener" class="font-label-sm text-xs uppercase tracking-widest text-primary border-b border-primary hover:opacity-80 inline-flex items-center gap-1 whitespace-nowrap">
-          Sign the Petition
-          <span class="material-symbols-outlined text-sm">arrow_outward</span>
+        <span class="font-serif text-stone-700">#RhythmSupport2026: Opening the doors of Carnegie Hall to students and families in the New York metropolitan area this December.</span>
+        <a href="rhythmsupport-2026.html" class="font-label-sm text-xs uppercase tracking-widest text-primary border-b border-primary hover:opacity-80 inline-flex items-center gap-1 whitespace-nowrap">
+          Explore the Initiative
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
         </a>
       </div>
     </div>
@@ -169,7 +178,7 @@
         Help us reduce economic barriers to music education and meaningful cultural experiences. Your support helps provide instruments, concert tickets, transportation when needed, and extraordinary opportunities for young people who might otherwise lack access.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <a href="https://www.paypal.com/ncp/payment/SS4DUEFAZWZTC" data-wgr-donate-link target="_blank" rel="noopener noreferrer" class="bg-primary text-on-primary px-10 py-4 rounded-lg font-label-sm text-label-sm tracking-widest uppercase hover:bg-primary-fixed-dim transition-colors inline-flex items-center justify-center gap-2">Donate Today <span class="material-symbols-outlined text-base">arrow_outward</span></a>
+        <a href="https://www.paypal.com/donate?campaign_id=EJ9RZR8CBF69A" data-wgr-donate-link target="_blank" rel="noopener noreferrer" class="bg-primary text-on-primary px-10 py-4 rounded-lg font-label-sm text-label-sm tracking-widest uppercase hover:bg-primary-fixed-dim transition-colors inline-flex items-center justify-center gap-2">Donate Today <span class="material-symbols-outlined text-base">arrow_outward</span></a>
         <a href="partnership.html#partner" class="border border-outline px-10 py-4 rounded-lg font-label-sm text-label-sm tracking-widest uppercase text-on-surface hover:bg-surface-container transition-colors">Partner With Us</a>
       </div>
     </section>
@@ -194,13 +203,18 @@
             <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="impact.html">Impact</a></li>
             <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="partnership.html">Partnership</a></li>
             <li><a class="text-sm text-stone-700 hover:text-primary transition-colors" href="who-we-are.html">Who We Are</a></li>
+            <li><a class="text-sm text-stone-700 hover:text-primary transition-colors font-semibold" href="get-involved.html">Get Involved</a></li>
           </ul>
         </div>
 
         <div class="md:col-span-3">
           <p class="font-label-sm text-xs uppercase tracking-widest text-stone-500 mb-4">Connect</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSffo7x7MO0QhBbVLtPtFMg33N_Oa8FbC3RZKs5U8yfG1VLlFQ/viewform" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-5 group">
+          <a href="get-involved.html#inquiry-form" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-2 group">
             <span class="material-symbols-outlined text-base">mail</span>Get in Touch
+            <span class="material-symbols-outlined text-base opacity-0 group-hover:opacity-100 transition-opacity -ml-1">arrow_forward</span>
+          </a>
+          <a href="https://www.change.org/wevegotrhythm" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm text-stone-700 hover:text-primary transition-colors mb-5 group">
+            <span class="material-symbols-outlined text-base">campaign</span>Advocacy &amp; Petition
             <span class="material-symbols-outlined text-base opacity-0 group-hover:opacity-100 transition-opacity -ml-1">arrow_forward</span>
           </a>
           <div class="flex gap-3">
